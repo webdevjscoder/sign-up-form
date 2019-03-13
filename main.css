@@ -1,0 +1,76 @@
+html {
+    background-color: rgba(0, 153, 255, 0.884);
+    font-family: 'ROBOTO', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+form {
+    width: 400px;
+    padding: 0px 40px;
+    border-radius: 3px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.logo {
+    display: block;
+    width: auto;
+    height: 35px;
+    margin: 25px auto 30px;
+}
+
+legend {
+    font-size: 35px;
+    font-weight: 100;
+    color: #565656;
+    letter-spacing: 0;
+    margin: 40px auto 45px;
+}
+
+input[type="email"],
+input[type="password"],
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+    margin: 20px auto 20px;
+    border: 2px solid #e7e7e7;
+    border-radius: 3px;
+    transition: opacity 0.4s;
+    background: white;
+}
+
+button[type="submit"] {
+    font-size: 22px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    background-color: #15CD72;
+    border: 0;
+    cursor: pointer;
+}
+
+footer a {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
